@@ -1,0 +1,244 @@
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+    header ul li a {
+        margin: 0 15px;
+        font-size: 15px;
+    }
+
+    header .sing-btn {
+        font-size: 13px;
+    }
+
+    main {
+        height: 100vh;
+    }
+
+    main .hero-png {
+        max-width: 470px;
+    }
+
+    .content-left h1 {
+        font-size: 35px;
+    }
+
+    .content-left h2{
+        font-size: 20px;
+    }
+
+    .content-left p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .content-left .ctn {
+        padding: 13px 18px;
+        font-size: 11px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    header {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    header nav {
+        position: relative;
+    }
+
+    header nav label {
+        display: block;
+        font-size: 25px;
+        color: #5f27cd;
+        transition: visibility 0s, opacity .5s;
+    }
+
+    header nav #xmark {
+        display: none;
+    }
+
+    header nav input:checked ~ #xmark {
+        display: block;
+    }
+
+    header nav #bars {
+        display: block;
+    }
+
+    header nav input:checked ~ #bars {
+        display: none;
+    }
+
+
+    header nav ul {
+        position: absolute;
+        right: 0;
+        background: #f5f6fa;
+        width: 160px;
+        box-shadow: 0 0 10px 0 #d6d4d4;
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        transform: translatey(0px);
+        transition: visibility 0s, 0.5s linear;
+    }
+
+    header nav input:checked ~ ul {
+        visibility: visible;
+        opacity: 1;
+        transform: translatey(40px);
+    }
+
+    header nav ul a {
+        margin: 7px 0;
+        padding: 0 10px;
+    }
+
+    header nav ul .sing-btn {
+        width: 100%;
+        border-radius: 0;
+        text-align: center;
+        margin: 10px 0 0 0;
+    }
+
+    header .logo {
+        width: 65px;
+    }
+
+    /* ------------------ main area css start ------------------ */
+
+    main {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    main .content-left {
+       width: 100%; 
+       text-align: center;
+    }
+
+    main .content-left h1 {
+        font-size: 38px;
+    }
+
+    .content-left p {
+        font-size: 12px;
+        line-height: 28px;
+    }
+/* ------------------ main area css end ------------------ */
+} 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    main {
+        flex-wrap: wrap;
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    header nav {
+        position: relative;
+    }
+    
+    header nav label {
+        display: block;
+        font-size: 25px;
+        color: #5f27cd;
+        transition: visibility 0s, opacity .5s;
+    }
+
+    header nav #xmark {
+        display: none;
+    }
+
+    header nav input:checked ~ #xmark {
+        display: block;
+    }
+
+    header nav #bars {
+        display: block;
+    }
+
+    header nav input:checked ~ #bars {
+        display: none;
+    }
+
+
+    header nav ul {
+        position: absolute;
+        right: 0;
+        background: #f5f6fa;
+        width: 160px;
+        box-shadow: 0 0 10px 0 #d6d4d4;
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        transform: translatey(0px);
+        transition: visibility 0s, 0.5s linear;
+    }
+
+    header nav input:checked ~ ul {
+        visibility: visible;
+        opacity: 1;
+        transform: translatey(40px);
+    }
+
+    header nav ul a {
+        margin: 7px 0;
+        padding: 0 10px;
+    }
+
+    header nav ul .sing-btn {
+        width: 100%;
+        border-radius: 0;
+        text-align: center;
+        margin: 10px 0 0 0;
+    }
+
+/* ------------------ main area css start ------------------ */
+
+    main {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    main .content-left {
+       width: 100%; 
+       text-align: center;
+    }
+
+    main .content-left h1 {
+        font-size: 30px;
+    }
+
+    main .content-left h2 {
+        font-size: 20px;
+    }
+
+    .content-left p {
+        font-size: 12px;
+        line-height: 23px;
+    }
+
+    main .content-right img {
+        max-width: 100%;
+        min-width: 300px;
+    }
+
+    header .logo {
+        width: 60px;
+    }
+/* ------------------ main area css end ------------------ */
+}
+
+
+
+
